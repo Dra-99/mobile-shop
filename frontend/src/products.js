@@ -8,9 +8,9 @@ const products = [
     brand: '苹果',
     category: '电子产品',
     price: 5499,
-    countInStock: 7,
+    countInStock: 0,
     rating: 4.0,
-    numReviews: 5,
+    numReviews: 7,
   },
   {
     _id: '2',

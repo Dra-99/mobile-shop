@@ -15,8 +15,8 @@ const Product = ({product}) => {
                 }} to={`/products/${product._id}`}>
                     <Card.Title>{product.name}</Card.Title>
                 </Link>
-                <Card.Text as='div' className='my-3'>
-                    <Rating rating={product.rating} count={product.countInStock} />
+                <Card.Text className='my-3'>
+                    <Rating rating={product.rating} count={product.numReviews} />
                 </Card.Text>
                 <Card.Text as='h3'>
                     ￥{product.price}
